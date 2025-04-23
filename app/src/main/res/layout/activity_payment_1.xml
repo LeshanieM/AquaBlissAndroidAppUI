@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+ >
+
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/paymentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toEndOf="@id/backButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Payment Options Container -->
+    <LinearLayout
+        android:id="@+id/paymentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@id/paymentTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Apple Pay Option -->
+        <LinearLayout
+            android:id="@+id/applePayOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:divider="@android:color/darker_gray"
+            android:showDividers="middle">
+
+            <ImageView
+                android:id="@+id/applePayIcon"
+                android:layout_width="29dp"
+                android:layout_height="31dp"
+                android:background="@drawable/top_2"
+                android:contentDescription="Apple Pay"
+                android:src="@drawable/top_2" />
+
+            <TextView
+                android:id="@+id/applePayText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Apple pay"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp" />
+
+            <RadioButton
+                android:id="@+id/applePayRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@android:color/holo_green_light"
+                android:checked="true"
+                android:textColorLink="@color/blue1" />
+        </LinearLayout>
+
+        <!-- Pay with Card Option -->
+        <LinearLayout
+            android:id="@+id/cardPayOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:divider="@android:color/darker_gray"
+            android:showDividers="middle">
+
+            <ImageView
+                android:id="@+id/cardIcon"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/top_2"
+                android:contentDescription="Card Payment"
+                android:src="@drawable/top_2" />
+
+            <TextView
+                android:id="@+id/cardPayText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Pay with card"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp" />
+
+            <RadioButton
+                android:id="@+id/cardPayRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/blue1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

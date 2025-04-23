@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="M1"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.M1"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LaunchActivity"
+        android:label="launch Page"
+        android:theme="@style/Theme.AppCompat.Light"
+        android:launchMode="singleTop">
+        <!-- This activity starts with a specific theme and launch mode -->
+    </activity>
+
+        <activity android:name=".SecondsignupActivity"
+            android:label="Sign up"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:launchMode="singleTop">
+            <!-- This activity starts with a specific theme and launch mode -->
+        </activity>
+
+        <activity android:name=".ThirdLoginActivity"
+            android:label="Login Page"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:launchMode="singleTop">
+            <!-- This activity starts with a specific theme and launch mode -->
+        </activity>
+
+        <activity android:name=".FourthProfileActivity"
+            android:label="Profile Page"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:launchMode="singleTop">
+            <!-- This activity starts with a specific theme and launch mode -->
+        </activity>
+
+        <activity android:name=".FifthHomeActivity"
+        android:label="Home Page"
+        android:theme="@style/Theme.AppCompat.Light"
+        android:launchMode="singleTop">
+        <!-- This activity starts with a specific theme and launch mode -->
+    </activity>
+
+        <activity android:name=".SixthCartActivity"
+            android:label="Cart Page"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:launchMode="singleTop">
+            <!-- This activity starts with a specific theme and launch mode -->
+        </activity>
+
+        <activity android:name=".SeventhPaymentActivity"
+            android:label="Payment Page 1"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:launchMode="singleTop">
+            <!-- This activity starts with a specific theme and launch mode -->
+        </activity>
+
+        <activity android:name=".EightPaymentPage2"
+            android:label="Payment Page 2"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:launchMode="singleTop">
+            <!-- This activity starts with a specific theme and launch mode -->
+        </activity>
+
+        <activity android:name=".NinePaymentPage3"
+            android:label="Payment Page 3"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:launchMode="singleTop">
+            <!-- This activity starts with a specific theme and launch mode -->
+        </activity>
+
+        <activity android:name=".TenDeliveryPage"
+            android:label="Delivery Page "
+            android:theme="@style/Theme.AppCompat.Light"
+            android:launchMode="singleTop">
+            <!-- This activity starts with a specific theme and launch mode -->
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#EFF0FC</color>
+    <color name="blue1">#6400FF</color>
+    <color name="blue">#6400FF</color> <!-- Note: this one is not a hex color! -->
+    <color name="purple">#6400FF</color>
+</resources>

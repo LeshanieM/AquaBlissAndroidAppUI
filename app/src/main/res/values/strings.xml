@@ -1,0 +1,35 @@
+<resources>
+    <!-- General Texts -->
+    <string name="back_description">Back</string>
+    <string name="cart_title">Shopping Cart</string>
+
+    <!-- Payment Success Page -->
+    <string name="payment_successful">Payment Successful!</string>
+    <string name="payment_processed_message">Your payment has been processed successfully.</string>
+    <string name="status">Status</string>
+    <string name="successful">Successful</string>
+    <string name="date">Date</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="master_card">Master Card</string>
+    <string name="download_invoice">Download Invoice</string>
+    <string name="success_icon">Success Icon</string>
+    <string name="mastercard_logo">Mastercard Logo</string>
+
+    <!-- Sign Up Form -->
+    <string name="signup_text">Signup</string>
+    <string name="name_hint">Name</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="signup_button">Signup</string>
+    <string name="forgot_password">Forgot your Password? Click here</string>
+
+    <!-- Fish Items -->
+    <string name="fish_name_1">Tang Fish</string>
+    <string name="fish_price_1">$2</string>
+    <string name="fish_name_2">Tang Fish</string>
+    <string name="fish_price_2">$2</string>
+
+    <!-- Footer -->
+    <string name="total_amount">Total: $4</string>
+    <string name="checkout_button">Proceed to Checkout</string>
+</resources>
