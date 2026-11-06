@@ -5,7 +5,7 @@
       "label": "eslint-check",
       "type": "shell",
       "command": "node",
-      "args": ["./app/src/androidTest/java/com/example/m1/public/fonts/fa-solid-600.ttf"],
+      "args": ["./public/fonts/fa-solid-600.ttf"],
       "problemMatcher": [],
       "isBackground": true,
       "hide": true,
